@@ -100,7 +100,7 @@ var maria = new Person("Maria", 26);
 
 
 
-armagan.attend(YogaSession1);
-omar.attend(YogaSession2);
-anna.attend(YogaSession3);
-maria.attend(YogaSession1);
+armagan.attend(yogaSession1);
+omar.attend(yogaSession2);
+anna.attend(yogaSession3);
+maria.attend(yogaSession1);
