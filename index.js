@@ -1,4 +1,4 @@
-// new class is YogaSession, with name, time & beginner
+// new class is YogaSession, with name, time, beginner & array attendees
 
 YogaSession = class {
 
@@ -6,6 +6,8 @@ YogaSession = class {
 		this.name = (name);
 		this.time = (time);
 		this.beginner = (beginner);
+		this.attendees = []
+
       
 	}
 
@@ -54,7 +56,7 @@ TechYogi = class {
 	constructor(name, age) {
 		this.name = name
        		this.age = age
-       		this.attendees = []
+       		this.yogaSessions = []
     }
     
     attend(yogaSession){
@@ -93,10 +95,10 @@ var Meditation2 = new Meditation ("GongMeditation", 11, false);
 
 var Meditation3 = new Meditation ("Heart Meditation", 5, true);
 
-var armagan = new TechYogis("Armagan", 34);
-var omar = new TechYogis("Omar", 30);
-var armagan = new Person("Anna", 27);
-var maria = new Person("Maria", 26);
+var armagan = new TechYogi("Armagan", 34);
+var omar = new TechYogi("Omar", 30);
+var armagan = new TechYogi("Anna", 27);
+var maria = new TechYogi("Maria", 26);
 
 
 
@@ -104,3 +106,9 @@ armagan.attend(yogaSession1);
 omar.attend(yogaSession2);
 anna.attend(yogaSession3);
 maria.attend(yogaSession1);
+
+
+console.log(yogaSession2, omar);
+console.log(yogaSession3, anna);
+console.log(yogaSession1, armagan);
+console.log(yogaSession1, maria)
