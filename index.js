@@ -3,9 +3,9 @@
 YogaSession = class {
 
 	constructor(name, time, beginner) {
-		this.name = (name);
-		this.time = (time);
-		this.beginner = (beginner);
+		this.name = name;
+		this.time = time;
+		this.beginner = beginner;
 		this.attendees = []
 
       
@@ -18,9 +18,9 @@ YogaSession = class {
 
 Asana = class {
 	constructor(name, time, beginner) {
-		this.name = (name);
-		this.time = (time);
-		this.beginner = (beginner);
+		this.name = name;
+		this.time = time;
+		this.beginner = beginner;
       
 	}
 }
@@ -30,9 +30,9 @@ Asana = class {
 
 Pranayama = class {
 	constructor(name, time, beginner) {
-		this.name = (name);
-		this.time = (time);
-		this.beginner = (beginner);
+		this.name = name;
+		this.time = time;
+		this.beginner = beginner;
       
 	}
 }
@@ -43,9 +43,9 @@ Pranayama = class {
 
 Meditation = class {
 	constructor(name, time, beginner) {
-		this.name = (name);
-		this.time = (time);
-		this.beginner = (beginner);
+		this.name = name;
+		this.time = time;
+		this.beginner = beginner;
       
 	}
 }
